@@ -5,11 +5,12 @@ import Thumbnail from "../thumbnail"
 
 const ProductPreview = ({
   title,
-  handle,
+  subtitle,
   id,
   thumbnail,
   price,
 }: ProductPreviewType) => {
+  console.log(subtitle)
   return (
     <Link href={`/products/${id}`}>
       <a>
@@ -18,7 +19,7 @@ const ProductPreview = ({
           <div className="text-base-regular mt-2 flex justify-between items-start">
             <div className="flex flex-col">
               <span className="font-semibold">{title}</span>
-              <span className="text-xs">{handle}</span>
+              <span className="text-xs">{subtitle}</span>
             </div>
             <div className="flex items-center gap-x-2">
               {price ? (

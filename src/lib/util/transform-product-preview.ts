@@ -21,6 +21,7 @@ const transformProductPreview = (
     id: product.id,
     title: product.title,
     handle: product.handle,
+    subtitle: product.subtitle,
     thumbnail: product.thumbnail,
     price: {
       calculated_price: formatAmount({

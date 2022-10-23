@@ -13,7 +13,7 @@ Mohamed Abdul Kader - @Mak2503
 An open source ecommerce mobile application built using Medusa. It includes products screen, cart, checkout and payment. 
 
 ### Demo
-https://jasper-medusa.netlify.app
+https://jasper-medusa.netlify.app - MOBILE APP ONLY
 
 ## Set up Project
 

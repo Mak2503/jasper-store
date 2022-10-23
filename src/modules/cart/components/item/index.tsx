@@ -20,9 +20,9 @@ const Item = ({ item, region }: ItemProps) => {
       <div className="w-[122px]">
         <Thumbnail thumbnail={item.thumbnail} size="full" />
       </div>
-      <div className="text-base-regular flex flex-col gap-y-8">
-        <div className="flex items-start justify-between">
-          <div className="flex flex-col">
+      <div className="text-base-regular flex flex-col">
+        <div className="flex flex-col items-start justify-between">
+          <div className="flex flex-col mb-3">
             <span>{item.title}</span>
             <LineItemOptions variant={item.variant} />
           </div>
@@ -48,22 +48,21 @@ const Item = ({ item, region }: ItemProps) => {
               })}
           </NativeSelect>
         </div>
-        <div className="flex items-end justify-between text-small-regular flex-1">
+        <div className="flex items-center justify-between text-small-regular flex-1">
+          <div className="font-semibold">
+            <LineItemPrice
+              variant={item.variant as CalculatedVariant}
+              quantity={item.quantity}
+              region={region}
+            />
+          </div>
           <div>
             <button
               className="flex items-center gap-x-1 text-gray-500"
               onClick={() => deleteItem(item.id)}
             >
               <Trash size={14} />
-              <span>Remove</span>
             </button>
-          </div>
-          <div>
-            <LineItemPrice
-              variant={item.variant as CalculatedVariant}
-              quantity={item.quantity}
-              region={region}
-            />
           </div>
         </div>
       </div>

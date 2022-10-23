@@ -6,8 +6,8 @@ const Layout: React.FC = ({ children }) => {
   return (
     <div>
       <Nav />
-      <main className="relative">{children}</main>
-      <Footer />
+      <main className="relative bg-gray-900">{children}</main>
+      {/* <Footer /> */}
     </div>
   )
 }

@@ -2,12 +2,14 @@ import { Popover, Transition } from "@headlessui/react"
 import { useCartDropdown } from "@lib/context/cart-dropdown-context"
 import { useStore } from "@lib/context/store-context"
 import useEnrichedLineItems from "@lib/hooks/use-enrich-line-items"
+import { ShoppingCart } from "@lib/util/icons"
 import Button from "@modules/common/components/button"
 import LineItemOptions from "@modules/common/components/line-item-options"
 import LineItemPrice from "@modules/common/components/line-item-price"
 import Trash from "@modules/common/icons/trash"
 import Thumbnail from "@modules/products/components/thumbnail"
 import { formatAmount, useCart } from "medusa-react"
+import Image from "next/image"
 import Link from "next/link"
 import { Fragment } from "react"
 import { CalculatedVariant } from "types/medusa"
@@ -22,7 +24,10 @@ const CartDropdown = () => {
     <div className="h-full z-50" onMouseEnter={open} onMouseLeave={close}>
       <Popover className="relative h-full">
         <Link href="/cart" passHref>
-          <Popover.Button className="h-full">{`My Bag (${totalItems})`}</Popover.Button>
+          {/* <Popover.Button className="h-full">{`My Bag (${totalItems})`}</Popover.Button> */}
+          <Popover.Button className="h-full">
+            <ShoppingCart />
+          </Popover.Button>
         </Link>
         <Transition
           show={state}

@@ -22,7 +22,7 @@ const LineItemPrice = ({
   return (
     <div className="flex flex-col text-gray-700 text-right">
       <span
-        className={clsx("text-base-regular", {
+        className={clsx("text-base-regular font-semibold", {
           "text-rose-600": hasReducedPrice,
         })}
       >

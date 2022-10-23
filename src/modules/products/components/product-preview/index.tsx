@@ -14,32 +14,34 @@ const ProductPreview = ({
   return (
     <Link href={`/products/${id}`}>
       <a>
-        <div>
+        <div className="bg-white p-2 h-64 rounded-xl">
           <Thumbnail thumbnail={thumbnail} size="full" />
           <div className="text-base-regular mt-2 flex justify-between items-start">
             <div className="flex flex-col">
-              <span className="font-semibold">{title}</span>
-              <span className="text-xs">{subtitle}</span>
-            </div>
-            <div className="flex items-center gap-x-2">
-              {price ? (
-                <>
-                  {price.price_type === "sale" && (
-                    <span className="line-through text-rose-500">
-                      {price.original_price}
+              <span className="font-semibold text-xs">{title}</span>
+              <span className="" style={{ fontSize: 10 }}>
+                {subtitle}
+              </span>
+              <div className="flex items-center gap-x-2">
+                {price ? (
+                  <>
+                    {price.price_type === "sale" && (
+                      <span className="line-through text-rose-500">
+                        {price.original_price}
+                      </span>
+                    )}
+                    <span
+                      className={clsx("font-semibold", {
+                        "text-rose-500": price.price_type === "sale",
+                      })}
+                    >
+                      {price.calculated_price}
                     </span>
-                  )}
-                  <span
-                    className={clsx("font-semibold", {
-                      "text-rose-500": price.price_type === "sale",
-                    })}
-                  >
-                    {price.calculated_price}
-                  </span>
-                </>
-              ) : (
-                <div className="w-20 h-6 animate-pulse bg-gray-100"></div>
-              )}
+                  </>
+                ) : (
+                  <div className="w-20 h-6 animate-pulse bg-gray-100"></div>
+                )}
+              </div>
             </div>
           </div>
         </div>

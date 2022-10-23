@@ -22,10 +22,8 @@ const ImageGallery = ({ image }: ImageGalleryProps) => {
 
   return (
     <div className="flex items-start relative">
-      <div className="hidden small:flex flex-col gap-y-4 sticky top-20">
-        {/* {image.map((image, index) => { */}
+      {/* <div className="hidden small:flex flex-col gap-y-4 sticky top-20">
         <button className="h-14 w-12 relative border border-white">
-          {/* <span className="sr-only">Go to image {index + 1}</span> */}
           <Image
             src={image ? image : ""}
             layout="fill"
@@ -34,8 +32,7 @@ const ImageGallery = ({ image }: ImageGalleryProps) => {
             alt="Thumbnail"
           />
         </button>
-        {/* })} */}
-      </div>
+      </div> */}
       <div className="flex flex-col flex-1 small:mx-16 gap-y-4">
         {/* {image.map((image, index) => { */}
         <div

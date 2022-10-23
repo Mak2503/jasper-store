@@ -58,7 +58,7 @@ const CollectionTemplate: React.FC<CollectionTemplateProps> = ({
       <div className="mb-8 text-2xl-semi">
         <h1>{collection.title}</h1>
       </div>
-      <ul className="grid grid-cols-2 small:grid-cols-3 medium:grid-cols-4 gap-x-6 gap-y-16">
+      <ul className="grid grid-cols-2 small:grid-cols-3 medium:grid-cols-4 gap-6">
         {previews.map((p) => (
           <li key={p.id}>
             <ProductPreview {...p} />

@@ -14,7 +14,7 @@ const ProductPreview = ({
   return (
     <Link href={`/products/${id}`}>
       <a>
-        <div className="bg-white p-2 h-64 rounded-xl">
+        <div className="bg-white p-2 rounded-xl">
           <Thumbnail thumbnail={thumbnail} size="full" />
           <div className="text-base-regular mt-2 flex justify-between items-start">
             <div className="flex flex-col">

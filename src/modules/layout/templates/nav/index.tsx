@@ -41,7 +41,7 @@ const Nav = () => {
 
   return (
     <div
-      className={clsx("sticky top-0 inset-x-0 z-50 group", {
+      className={clsx("", {
         "!fixed": isHome,
       })}
     >

@@ -24,7 +24,7 @@ const ProductActions: React.FC<ProductActionsProps> = ({ product }) => {
   }, [price])
 
   return (
-    <div className="flex justify-between bg-white px-8 py-6 mt-8 h-full rounded-t-3xl">
+    <div className="flex justify-between bg-white px-8 py-2 mt-8 rounded-t-3xl">
       {/* {product.collection && (
         <Link href={`/collections/${product.collection.id}`}>
           <a className="text-small-regular text-gray-700">
@@ -82,7 +82,7 @@ const ProductActions: React.FC<ProductActionsProps> = ({ product }) => {
           </div>
         )}
         <Button onClick={addToCart} className="rounded-2xl">
-          {!inStock ? "Out of stock" : "Cart"}
+          {!inStock ? "Out of stock" : "Add to Cart"}
         </Button>
       </div>
     </div>

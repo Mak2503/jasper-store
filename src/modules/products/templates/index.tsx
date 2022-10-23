@@ -21,8 +21,8 @@ const ProductTemplate: React.FC<ProductTemplateProps> = ({ product }) => {
 
   return (
     <ProductProvider product={product}>
-      <div className="flex flex-col h-100vh small:flex-row small:items-start py-6 relative">
-        <div className="flex flex-col px-8 gap-y-8 w-full h-80 max-h-96">
+      <div className="flex flex-col small:flex-row small:items-start relative">
+        <div className="flex flex-col px-8 mt-6 gap-y-8 w-full h-80 max-h-96">
           <img
             style={{ height: "100%" }}
             className="rounded-xl"
@@ -31,7 +31,7 @@ const ProductTemplate: React.FC<ProductTemplateProps> = ({ product }) => {
           />
         </div>
         <div
-          className="small:sticky small:top-20 w-full py-4 small:py-0 small:max-w-[344px] medium:max-w-[400px] flex flex-col gap-y-12"
+          className="small:sticky small:top-20 w-full small:py-0 small:max-w-[344px] medium:max-w-[400px] flex flex-col gap-y-12"
           ref={info}
         >
           <ProductInfo product={product} />

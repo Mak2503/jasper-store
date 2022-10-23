@@ -1,7 +1,7 @@
 
 
 ## Jasper
-![image](https://res.cloudinary.com/threed-ecommerce/image/upload/v1666498664/galaxy-cover-template_1_yibdif.png)
+<img src="https://res.cloudinary.com/threed-ecommerce/image/upload/v1666498664/galaxy-cover-template_1_yibdif.png" alt="Alt text" title="Optional title">
 
 ## About
 

@@ -23,11 +23,11 @@ https://jasper-admin.netlify.app
 
 ### Team
 
-| Name          | Github        | Discord       |
-| ------------- | ------------- | ------------- |
-| Mohamed Abdul Kader  | [@Mak2503](https://github.com/Mak2503)   | Mohamed#3533  |
-| Aarif     | [@AarifUi](https://github.com/AarifUi)      | Aarif#8802    |
-| Mohamed Ameer  | ishikaverma372| ishika#0095   |
+| Name          | Github        | Discord       | Twitter       |
+| ------------- | ------------- | ------------- | ------------- |
+| Mohamed Abdul Kader  | [@Mak2503](https://github.com/Mak2503)   | Mohamed#3533  | [@mak2503sde](https://twitter.com/mak2503sde)
+| Aarif     | [@AarifUi](https://github.com/AarifUi)      | Aarif#8802    | [@aarif271999](https://twitter.com/aarif271999)
+| Mohamed Ameer  | ishikaverma372| ishika#0095   | [@Ameer230700](https://twitter.com/Ameer230700)
 
 Screenshots of the App
 

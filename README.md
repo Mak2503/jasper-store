@@ -15,8 +15,10 @@ An open source ecommerce mobile application built using Medusa. It includes prod
 ### Demo
 https://jasper-medusa.netlify.app - MOBILE APP ONLY
 
-### Server and Admin Link
+### Server
 https://jasper-medusa-server.herokuapp.com
+
+###Admin
 https://jasper-admin.netlify.app
 
 ## Set up Project

@@ -25,7 +25,7 @@ https://jasper-admin.netlify.app
 
 | Name          | Github        | Discord       |
 | ------------- | ------------- | ------------- |
-| Mohamed Abdul Kader  | ![Mak2503](https://github.com/Mak2503)   | Mohamed#3533  |
+| Mohamed Abdul Kader  | [@Mak2503](https://github.com/Mak2503)   | Mohamed#3533  |
 | Aarif     | astha114      | astha#9193    |
 | Mohamed Ameer  | ishikaverma372| ishika#0095   |
 

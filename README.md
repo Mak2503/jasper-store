@@ -3,11 +3,6 @@
 ## Jasper
 <img src="https://res.cloudinary.com/threed-ecommerce/image/upload/v1666526215/galaxy-cover-template_1_yibdif_4d2bbe.png" alt="Alt text" title="Optional title">
 
-## About
-
-### Participants
-Mohamed Abdul Kader - @Mak2503
-
 ### Description
 
 An open source ecommerce mobile application built using Medusa. It includes products screen, cart, checkout and payment. 
